@@ -19,9 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),*/
-      home: GeciciUser(
-        email: 'eposta1',
-      ),
+      home: LoginPage(),
     );
   }
 }
